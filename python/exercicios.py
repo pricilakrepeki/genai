@@ -1,6 +1,5 @@
 # EX. 1: Hello World Personalizado
 # Peça o nome do usuário e imprima uma mensagem de boas-vindas personalizada
-# Exemplo: "Olá, André! Seja bem-vinda à Especialização em IA Generativa!"
 nome = input("Digite seu nome: ")
 print(f"Olá, {nome}! Seja bem-vinda à Especialização em IA Generativa!")
 
@@ -8,8 +7,8 @@ print(f"Olá, {nome}! Seja bem-vinda à Especialização em IA Generativa!")
 # Conceitos: Tipos numéricos, conversão de tipos
 # Peça dois números ao usuário e mostre a soma deles
 # Desafio: Mostre também a subtração, multiplicação e divisão
-num1 = float(input("Digite o primeiro número: "))
-num2 = float(input("Digite o segundo número: "))
+num1 = float(input("Digite o primeiro número e tecle enter: "))
+num2 = float(input("Digite o segundo número e tecle enter: "))
 print(f"Soma: {num1 + num2}")
 print(f"Subtração: {num1 - num2}")
 print(f"Multiplicação: {num1 * num2}")
@@ -18,7 +17,7 @@ print(f"Divisão: {num1 / num2 if num2 != 0 else 'Erro: divisão por zero'}")
 #EX. 3: Par ou Ímpar
 #Conceitos: Operador "%" (módulo), condicionais "if/else"
 # Peça um número ao usuário e diga se ele é par ou ímpar
-numero = int(input("Digite um número: "))
+numero = int(input("Digite um número e tecle enter: "))
 if numero % 2 == 0:
     print(f"O número {numero} é par.")
 else:
@@ -28,7 +27,7 @@ else:
 #Conceitos: Operações matemáticas, formatação de strings
 # Converta Celsius para Fahrenheit: (C × 9/5) + 32
 # Peça a temperatura em Celsius e mostre em Fahrenheit
-celsius = float(input("Digite a temperatura em Celsius: "))
+celsius = float(input("Digite a temperatura em Celsius e tecle enter: "))
 fahrenheit = (celsius * 9/5) + 32
 print(f"A temperatura em Fahrenheit é: {fahrenheit:.2f}")
 
