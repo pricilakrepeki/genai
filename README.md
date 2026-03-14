@@ -1,0 +1,2 @@
+# genai
+pós ufpr genai
